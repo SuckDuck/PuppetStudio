@@ -1,0 +1,26 @@
+## Known Problems
+
+- `CalculateBoundaries()` doesn't work well when a puppet is flipped.
+- In `LoadPuppet()`, a temporary 256-bone buffer is allocated, which causes a crash if a puppet has more than 256 bones.
+
+## TODO
+
+- Redo the filedialog viewport using proper UI.
+- Replace the storagebridge viewport with a proper file-explorer-style viewport.
+- Workshop viewport:
+  - Puppet should be movable.
+  - Reference image should be reimplemented:
+    - Movable
+    - Independently rescalable
+    - Proper controls
+- Theater viewport:
+  - Puppets should be rescalable directly from the viewport, not only via UI.
+- Make UI responsive in most viewports (adapt to panel width), especially blocks with 2 or 4 elements.
+
+## New Features
+
+- **Pro Skins**
+  - Skins deform with bones using weighted deformation (similar to Blender or DragonBones).
+
+- **Flip-Book**
+  - Users can freely draw on each frame, like a classic flipbook.
