@@ -15,7 +15,10 @@
     - Proper controls
 - Theater viewport:
   - Puppets should be rescalable directly from the viewport, not only via UI.
+  - In the timeline, a frame preview could be rendered in each frame rectangle.
 - Make UI responsive in most viewports (adapt to panel width), especially blocks with 2 or 4 elements.
+- Add a **proper** option to compress files in the build script.
+- Make the build script check for dependency changes across all sources and recompile if any have been modified.
 
 ## New Features
 
@@ -24,3 +27,6 @@
 
 - **Flip-Book**
   - Users can freely draw on each frame, like a classic flipbook.
+
+- **Frame Groups**
+  - Users can create groups of frames, each with a name, and copy, paste, or remove entire groups at once.

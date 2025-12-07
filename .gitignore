@@ -1,0 +1,6 @@
+__pycache__
+build/linux/*.o
+build/web/*.o
+statics/*
+sampleProject/*.zip
+puppets/*.zip
